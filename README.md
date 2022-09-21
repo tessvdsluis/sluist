@@ -38,12 +38,12 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Je opdracht:
    (https://studio-k.nu)
   #### Screenshot(s) van de eerste pagina (small screen): 
-  hier de naam van de pagina  
-  <img src="readme-images/screencapture-studio-k-nu-2022-09-20-17_04_35.png" width="375px" alt="omschrijving van de pagina">
+Home-pagina 
+  <img src="readme-images/screencapture-studio-k-nu-2022-09-20-17_04_35.png" width="175px" alt="omschrijving van de pagina">
 
   #### Screenshot(s) van de tweede pagina (small screen):
-  hier de naam van de pagina  
-  <img src="readme-images/screencapture-studio-k-nu-zaalhuur-2022-09-21-14_49_30 (1).png" width="375px" alt="omschrijving van de pagina">
+  Events-pagina
+  <img src="readme-images/screencapture-studio-k-nu-zaalhuur-2022-09-21-14_49_30 (1).png" width="175px" alt="omschrijving van de pagina">
  
 </details>
 
@@ -83,7 +83,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na afloop 2e werkgroep</summary>
 
   ### de hele pagina: 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+  <img src="readme-images/Breakdownschets.png" width="375px" alt="breakdown van de hele pagina">
 
   ### dynamisch deel (bijv menu): 
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
