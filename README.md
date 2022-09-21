@@ -39,11 +39,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
    (https://studio-k.nu)
   #### Screenshot(s) van de eerste pagina (small screen): 
   hier de naam van de pagina  
-  <img src="readme-images/studio-k:main.pdf" width="375px" alt="omschrijving van de pagina">
+  <img src="readme-images/screencapture-studio-k-nu-2022-09-20-17_04_35.png" width="375px" alt="omschrijving van de pagina">
 
   #### Screenshot(s) van de tweede pagina (small screen):
   hier de naam van de pagina  
-  <img src="readme-images/studio-k:events.pdf" width="375px" alt="omschrijving van de pagina">
+  <img src="readme-images/" width="375px" alt="omschrijving van de pagina">
  
 </details>
 
