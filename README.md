@@ -16,10 +16,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Auteur:
-  Tess van der Sluis
+  Sanne 't Hooft (vervangen door jouw naam)
 
   #### Je startniveau:
-  Blauw
+  hier je startniveau (kies uit zwart, rood óf blauw)
 
   #### Je focus:
   hier je focus (kies uit responsive óf surface plane)
@@ -36,14 +36,15 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Je opdracht:
-   (https://studio-k.nu)
+  link naar de website die je gaat namaken óf de naam/omschrijving van je eigen ontwerp
+
   #### Screenshot(s) van de eerste pagina (small screen): 
-Home-pagina 
-  <img src="readme-images/screencapture-studio-k-nu-2022-09-20-17_04_35.png" width="175px" alt="omschrijving van de pagina">
+  hier de naam van de pagina  
+  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
 
   #### Screenshot(s) van de tweede pagina (small screen):
-  Events-pagina
-  <img src="readme-images/screencapture-studio-k-nu-zaalhuur-2022-09-21-14_49_30 (1).png" width="175px" alt="omschrijving van de pagina">
+  hier de naam van de pagina  
+  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
  
 </details>
 
@@ -55,24 +56,31 @@ Home-pagina
   <summary>uitwerken na test in 1e werkgroep</summary>
 
   ### Bevindingen
-  De site die ik heb gekozen is zeker geen slechte site. Toch zijjnner hier en daar wat functies die ontbreken waardoor de site nog soepeler zou kunnen           verlopen.
+  Lijst met je bevindingen die in de test naar voren kwamen:
+
   #### Screenreader
-  De screenreader doet het opzich best goed. De kopjes heben goede namen 
+  Hier korte omschrijving (met indien nodig afbeeldingen)
+
+  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
 
 
   #### Muis en Toetsenbord 
   Hier korte omschrijving (met indien nodig afbeeldingen)
-  De website is goed te besturen, de contrasten van de site werken goed voor blindheid. 
-
-  #### Motoriek (shocks, elastiekjes)
-  Met de motoriek merk je dat de site op bepaalde punten niet een goede verdeling het van informatie, waardoor je met een bv trillende hand niet heel ver komt. 
-
-
-  #### Visueel (brillen contrast, kleurenblind, dark/light). 
-  Met de verschillende brillen op werkt de site nog prima, het is wel moeilijk om de grote van de letters te veranderen en hier en daar het contrast goed te blijjven zien. Doordat veel letters over een plaatje zijjn geplaatst kan het soms dat dit wegvalt 
 
   Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
-  Meer contrast bij de tekst en hover state toevoegen, ook kan je werken met een functie waarbij je de site ook in nigh modes kan zetten. 
+
+
+  #### Motoriek (shocks, elastiekjes)
+  Hier korte omschrijving (met indien nodig afbeeldingen)
+
+  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+
+
+  #### Visueel (brillen, contrast, kleurenblind, dark/light). 
+  Hier korte omschrijving (met indien nodig afbeeldingen)
+
+  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+
 </details>
 
 
@@ -83,7 +91,7 @@ Home-pagina
   <summary>uitwerken na afloop 2e werkgroep</summary>
 
   ### de hele pagina: 
-  <img src="readme-images/Breakdownschets.png" width="375px" alt="breakdown van de hele pagina">
+  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
 
   ### dynamisch deel (bijv menu): 
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
