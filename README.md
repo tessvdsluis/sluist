@@ -36,7 +36,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Je opdracht:
-  link naar de website die je gaat namaken óf de naam/omschrijving van je eigen ontwerp
+  https://studio-k.nu
 
   #### Screenshot(s) van de eerste pagina (small screen):
   hier de naam van de pagina
@@ -56,28 +56,28 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na test in 1e werkgroep</summary>
 
   ### Bevindingen
-  Lijst met je bevindingen die in de test naar voren kwamen:
+De site die ik heb uitgekozen is zeker geen slechte site. Toch zijn er hier en daar wat functies die ontbreken waardoor de site nog soepeler zou kunnen verlopen.
+
 
   #### Screenreader
-   Screenreader gaf aan dat de website best goed werkte. Hier en daar waren wat elementen niet goed aangegeven.
+  De screenreader doet het op opzich best goed. De kopjes hebben goede namen. Hier en daar worden er wel wat elementen overgeslagen.
 
 
   #### Muis en Toetsenbord
-  Hier korte omschrijving (met indien nodig afbeeldingen)
-
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  De website is ged te besturen, de contrasten van de site werken goed voor blindheid.
 
 
   #### Motoriek (shocks, elastiekjes)
-  Hier korte omschrijving (met indien nodig afbeeldingen)
-
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  Met de motoriek merk je dat de site op bepaalde punten niet een goede verdeling van informatie heeft. Waardoor je met een trillende hand niet heel ver komt. De agenda is bijvoorbeeld heel klein.
 
 
   #### Visueel (brillen, contrast, kleurenblind, dark/light).
-  Hier korte omschrijving (met indien nodig afbeeldingen)
+  Met de verschillende brillen op werkt de site nog prima. Het contrast van het roze en zwart werkt goed. Het is wel jammer dat de lettergrote niet makkelijk kan worden veranderd.Ook zijn er hier en daar zinnen over afbeeldingen geplaatst wat er ook wel voor kan zorgen dat het minder goed te lezen is.
 
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  Om de site te verbeteren:
+  Een hover state toepassen
+  een functie dat de letters groter en kleiner worden
+  night modus toevoegen
 
 </details>
 
