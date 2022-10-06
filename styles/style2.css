@@ -1,0 +1,42 @@
+/**************/
+/* CSS REMEDY */
+/**************/
+*, *::after, *::before {
+  box-sizing:border-box;
+}
+
+button, summary {
+    cursor: pointer;
+}
+
+
+
+
+
+/*********************/
+/* CUSTOM PROPERTIES */
+/*********************/
+:root {
+    /* startje */
+    --color-text:#EED6DC;
+    --color-background:#30302e;
+    --color-accent-background: #EED6DC;
+}
+
+
+
+
+
+/****************/
+/* JOUW STYLING */
+/****************/
+
+/* jouw code */
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+
+

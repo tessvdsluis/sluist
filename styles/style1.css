@@ -34,43 +34,34 @@ button, summary {
 /* jouw code */
 
 header {
-  display:flex;
+  background-image:;
 }
-
-nav ul {
-  align-items:center;
-  justify-content:space-around;
-  gap: 2em;
-}
-
 
 body {
   color:var(--color-text);
   background-color:var(--color-background);
-
 }
 
 main > section ul {
   display: block;
 }
-/* hoe selecteer ik alleen de eerste section van mijn main */ 
+/* hoe selecteer ik alleen de eerste section van mijjn main */ 
 
-
+nav ul {
+  justify-content: space-around;
+  gap: 2em;
+}
 
 ul {
-  display: flex;
-  }
+display: flex; 
+}
 
-  
 li {
   justify-content: space-between;
   font-family:'Roboto', sans-serif;
   color: var(--color-background);
   list-style: none;
 }
-
-
-
 
 a {
   font-family:'Roboto', sans-serif;
