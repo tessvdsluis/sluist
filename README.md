@@ -89,7 +89,7 @@ De site die ik heb uitgekozen is zeker geen slechte site. Toch zijn er hier en d
   <summary>uitwerken na afloop 2e werkgroep</summary>
 
   ### de hele pagina:
-  <img src="readme-images/Breakdownschets" width="375px" alt="breakdown van de hele pagina">
+  <img src="readme-images/Breakdownschets.png" width="375px" alt="breakdown van de hele pagina">
 
 
 </details>
