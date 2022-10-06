@@ -39,4 +39,8 @@ form {
 }
 
 
+p {
+  color:var(--color-text)
+}
+
 
