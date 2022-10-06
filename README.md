@@ -104,20 +104,16 @@ De site die ik heb uitgekozen is zeker geen slechte site. Toch zijn er hier en d
   <summary>uitwerken voor 1e voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Is mijn website gevraieerd genoeg? En moet ik alles uitwerken zoals het op de site staat?
 
 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
-
-  student 1: wanneer weet je of iets een section is?
-  Student 2: Is mijn website gevraieerd genoeg? En moet ik alles uitwerken zoals het op de site staat?
+  - Maeve: wanneer weet je of iets een section is?
+  - Nienke: Is mijn html semantisch
+  
+ 
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
