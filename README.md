@@ -162,10 +162,7 @@ De site die ik heb uitgekozen is zeker geen slechte site. Toch zijn er hier en d
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-- ...
+  - de css selectoren zijn een stuk duidelijker.
 
 </details>
 
@@ -216,18 +213,13 @@ De site die ik heb uitgekozen is zeker geen slechte site. Toch zijn er hier en d
   <summary>uitwerken voor 3e voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Ik was helaas niet mobile first begonnen met het schrijven van mijn code, dit zorde ervoor dat ik eiegnlijk opnieuw kon beginnen. Wel merkte ik dat het een stuk logischer en           makkelijker was om mobile first te beginnen. Het javascript gedeelte ging goed met het hamburger menu, maar de carousel is nog moeilijk, ook weet ik niet goed hoe ik het formulier moet aanpakken. 
 
 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
-
+  Tess: een section waarbij ik niet zo goed begrijp hoe ik verschillende elementen met een grid goed kan plaatsen. Ook moet ik een carousel maken met knoppen aan de zijkant alleen kan ik geen goed voorbeeld vinden van hoe dit moet, Sanne zijn voorbeelden in codepen openen niet bij mij.
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
