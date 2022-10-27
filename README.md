@@ -219,7 +219,8 @@ De site die ik heb uitgekozen is zeker geen slechte site. Toch zijn er hier en d
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  Tess: een section waarbij ik niet zo goed begrijp hoe ik verschillende elementen met een grid goed kan plaatsen. Ook moet ik een carousel maken met knoppen aan de zijkant alleen kan ik geen goed voorbeeld vinden van hoe dit moet, Sanne zijn voorbeelden in codepen openen niet bij mij.
+  Tess: een section waarbij ik niet zo goed begrijp hoe ik verschillende elementen met een grid goed kan plaatsen. Ook moet ik een carousel maken met knoppen aan de zijkant alleen kan               ik geen goed voorbeeld vinden van hoe dit moet, Sanne zijn voorbeelden in codepen openen niet bij mij.
+  eliran: waarom zorgt font-size voor tussenruimte bij img's
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
