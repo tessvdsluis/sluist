@@ -3,14 +3,18 @@
 /**************/
 *, *::after, *::before {
   box-sizing:border-box;
+     margin: 0;
+    padding: 0;
 }
 
 button, summary {
     cursor: pointer;
+    border:  none;
+    background-color: unset;
 }
-
-
-
+img{
+  width:100%;
+}
 
 
 /*********************/
@@ -24,40 +28,16 @@ button, summary {
 }
 
 
-
-
-
 /****************/
 /* JOUW STYLING */
 /****************/
-
-/* jouw code */
-
-header {
-  background-image:;
-}
-
 body {
   color:var(--color-text);
   background-color:var(--color-background);
 }
 
-main > section ul {
-  display: block;
-}
-/* hoe selecteer ik alleen de eerste section van mijjn main */ 
-
-nav ul {
-  justify-content: space-around;
-  gap: 2em;
-}
-
-ul {
-display: flex; 
-}
 
 li {
-  justify-content: space-between;
   font-family:'Roboto', sans-serif;
   color: var(--color-background);
   list-style: none;
@@ -77,15 +57,181 @@ h2 {
 }
 
 
+/****************/
+/* HEADER */
+/****************/
 
-footer {
+header {
+  background-image: url(../images/appelsap.jpg);
+  background-size:contain;
+  background-repeat:no-repeat;
+  /* padding-top: 4em; */
+  height: 10em;
+}
+
+section:nth-child(1) img {
+  display:none;
+}
+
+
+
+
+/************/
+/* CALENDER*/
+/************/
+
+section:nth-of-type(1) h1 {
+  display:none;
+  }
+
+section:nth-of-type(1) ul {
+  margin-top:1em;
+  margin-bottom: 1em;
+  text-align: center;
+  
+}
+
+
+section:nth-of-type(1) > ul li button {
+  color:var(--color-text);
+  background-color:var(--color-background);
+  padding:0.1em;
+  border:solid;
+  border-color: var(--color-accent-background);
+  
+}
+
+section:nth-of-type(1) ul li button date {
+  color:var(--color-background);
   background-color:var(--color-accent-background);
-  color: var(--color-background);
-  font-family:'Roboto', sans-serif;
-  display:flex;
+  padding:0.1em;
+  border:solid;
+  border-color: var(--color-background);
 }
 
-footer img {
-  max-width: 9em;
+section:nth-of-type(1) > ul li {
+  height: 2em;
 }
+
+section:nth-of-type(1) ul li time {
+  color:var(--color-background);
+  background-color:var(--color-accent-background);
+  padding:0.1em;
+  border:solid;
+  border-color: var(--color-background);
+}
+
+section:nth-of-type(1) > ul li a {
+  background-color: var(--color-accent-background);
+  color:var(--color-background);
+  border:solid;
+  border-color: var(--color-background);
+  padding:0.1em;
+} 
+
+
+
+/********************/
+/* AANKOMENDE FILMS */
+/*********************/
+
+
+section {
+  margin: 1em 1em;
+}
+section:nth-of-type(2) h1 {
+display:none;
+}
+
+section:nth-of-type(2) ul {
+  display: flex;
+  padding: 1em;
+}
+
+section:nth-of-type(2) ul li button {
+  color: var(--color-text);
+  padding: 0.5em;
+  text-align: justify;
+  text-transform: uppercase;
+  
+}
+
+section:nth-of-type(2) ul li {
+  text-align: center;
+
+ }
+
+
+/************/
+/* SPECIALS */
+/************/
+
+section:nth-of-type(3) {
+  background-color: var(--color-accent-background);
+  margin:1em;
+  padding: 1em;
+  display: flex;
+ 
+  
+}
+
+section:nth-of-type(3) h1, p, form label{
+  color: var(--color-background);
+}
+
+section:nth-of-type(3) time {
+  background-color: var(--color-background);
+  color: var(--color-text);
+  padding: 0.5em;
+  border-radius: 30%;
+}
+
+section:nth-of-type(3) h1, p {
+  flex-direction: column;
+}
+
+section:nth-of-type(3) ul, form {
+  flex-direction: column;
+}
+
+/*********************/
+/* CAFE & RESTAURANT */
+/*********************/
+
+section:nth-of-type(4) h2 {
+  font-size: 2em;
+  padding-bottom: 0.5em;
+}
+
+section:nth-of-type(4) p {
+  color: var(--color-text);
+  padding-bottom: .5em;
+}
+
+section:nth-of-type(4) a {
+  background-color: var(--color-accent-background);
+  color:var(--color-background);
+  margin: .3em;
+  padding: .2em .7em;
+  border-radius: 0.3em;
+}
+
+section:nth-of-type(4) li {
+  text-align:center;
+  margin: 2em 0 2em 0 ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
