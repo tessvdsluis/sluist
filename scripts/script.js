@@ -1,5 +1,4 @@
-// JavaScript Document
-console.log("hi");
+
 
 /******************************/
 /* menu openen & sluiten de MENU button */
