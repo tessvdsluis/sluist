@@ -19,7 +19,23 @@ function toggleMenu() {
 }
 
 
+/******************************/
+/* menu openen & sluiten de MENU button */
+/******************************/
 
+// menu button opgeslagen als variabelen deButton
+var deOptie = document.querySelector("main section:nth-of-type(2) ul li button");
+
+// menu-button luistert naar klik en voert dan een functie uit
+deOptie.addEventListener("click", toggleOptie);
+
+// Nieuwe functie toggleMenu 
+function toggleOptie() {  
+  // nav opgeslagen als variabelen
+  var extraInfo = document.querySelector("main section:nth-of-type(2) ul li p");
+  // nav krijgt class toonMenu
+  extraInfo.classList.toggle("toonTekst");
+}
 
 
 

@@ -83,12 +83,14 @@ section:nth-of-type(1) p {
   color:var(--color-text)
 }
 
+main section:nth-of-type(2) ul li p.toonTekst {
+  display:unset;
+}
+
 
 /****************/
 /* BUTTONS */
 /****************/
-
-
 
 section:nth-of-type(2) button {
 

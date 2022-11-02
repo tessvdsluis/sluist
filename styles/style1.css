@@ -56,6 +56,11 @@ h2 {
   
 }
 
+section {
+  margin: 3em 1em;
+  border-bottom: solid var(--color-accent-background);
+}
+
 
 /****************/
 /* HEADER */
@@ -87,24 +92,28 @@ section:nth-of-type(1) h1 {
 section:nth-of-type(1) ul {
   margin-top:1em;
   margin-bottom: 1em;
-  text-align: center;
-  
+  display:flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  position: row;
+  width: 80%;
 }
 
 
 section:nth-of-type(1) > ul li button {
   color:var(--color-text);
   background-color:var(--color-background);
-  padding:0.1em;
+  padding:0.2em;
   border:solid;
   border-color: var(--color-accent-background);
-  
+  min-width: 10em;
+
 }
 
 section:nth-of-type(1) ul li button date {
   color:var(--color-background);
   background-color:var(--color-accent-background);
-  padding:0.1em;
+  padding:0.2em;
   border:solid;
   border-color: var(--color-background);
 }
@@ -116,17 +125,19 @@ section:nth-of-type(1) > ul li {
 section:nth-of-type(1) ul li time {
   color:var(--color-background);
   background-color:var(--color-accent-background);
-  padding:0.1em;
+  padding:0.2em;
   border:solid;
   border-color: var(--color-background);
 }
 
 section:nth-of-type(1) > ul li a {
+  
   background-color: var(--color-accent-background);
   color:var(--color-background);
   border:solid;
   border-color: var(--color-background);
-  padding:0.1em;
+  padding:0.2em;
+  width: 100%;
 } 
 
 
@@ -136,9 +147,8 @@ section:nth-of-type(1) > ul li a {
 /*********************/
 
 
-section {
-  margin: 1em 1em;
-}
+
+
 section:nth-of-type(2) h1 {
 display:none;
 }
@@ -158,7 +168,7 @@ section:nth-of-type(2) ul li button {
 
 section:nth-of-type(2) ul li a img {
 height: 100%;
-width: 100%;
+max-width: 13em;;
 object-fit:cover;
   
 }
@@ -167,39 +177,42 @@ section:nth-of-type(2) ul li {
   text-align: center;
  }
 
+ section:nth-of-type(2) ul li a {
+  text-align: center;
+ }
+    
 
 /************/
 /* SPECIALS */
 /************/
 
-section:nth-of-type(3) {
+section:nth-of-type(3) ul:nth-of-type(2) {
   background-color: var(--color-accent-background);
-  margin:1em;
+  margin:4em 1em;
   padding: 1em;
   display: flex;
   flex-direction: column;
- 
-  
 }
 
-section:nth-of-type(3) h1, p, form label{
+
+
+section:nth-of-type(3) h1, p, form label {
   color: var(--color-background);
 }
 
 section:nth-of-type(3) time {
   background-color: var(--color-background);
   color: var(--color-text);
-  padding: 0.5em;
-  border-radius: 30%;
+  padding: 0.9em;
+  border-radius: 1em;
 }
 
-section:nth-of-type(3) h1, p {
-  flex-direction: column;
+section:nth-of-type(3) img  {
+  max-width: 13em;
 }
 
-section:nth-of-type(3) ul, form {
-  flex-direction: column;
-}
+
+
 
 /*********************/
 /* CAFE & RESTAURANT */
@@ -207,18 +220,16 @@ section:nth-of-type(3) ul, form {
 
 section:nth-of-type(4) h2 {
   font-size: 2em;
-  padding-bottom: 0.5em;
 }
 
 section:nth-of-type(4) p {
   color: var(--color-text);
-  padding-bottom: .5em;
 }
 
 section:nth-of-type(4) a {
   background-color: var(--color-accent-background);
   color:var(--color-background);
-  margin: .3em;
+  margin: 0em .3em;
   padding: .2em .7em;
   border-radius: 0.3em;
 }
@@ -226,6 +237,12 @@ section:nth-of-type(4) a {
 section:nth-of-type(4) li {
   text-align:center;
   margin: 2em 0 2em 0 ;
+}
+
+section:nth-of-type(4) ul {
+  display: flex;
+  align-items:flex-start;
+  flex-direction: column;
 }
 
 
@@ -255,55 +272,58 @@ border: solid var(--color-text)
 /* CAROUSEL */
 /***********/
 
-main > section ul:nth-of-type(2) {
-  margin: 0; padding: 0;
-  list-style: none;
-	display: flex;
-	
-	/* handmatig scrollen is mogelijk */
-	overflow: hidden;
-	
-	/* snappen als er gescrolled wordt - andere helft bij li */
-  scroll-snap-type: inline mandatory;
+main section:nth-of-type(2) ul:nth-of-type(2) {
+  /* jouw code hier */
+  display:flex;
+  gap:.5em;
   
-  /* smooth als met js gescrolled wordt */
-	scroll-behavior: smooth;
+  overflow-x:auto;
+  /* om de kinderen te laten snappen */
+  /* https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-snap-type */
+  scroll-snap-type: x mandatory;
   
-  /* scrollbar zoveel mogelijk verbergen */
-  -webkit-overflow-scrolling: touch; /* voor iOS*/
-  -ms-overflow-style: none; /* voor IE */
-	scrollbar-width: none; /* voor firefox */
-
-  gap: .1em;
-}
-
-main > section ul:nth-of-type(2) li {
-flex-basis: 50%;
-flex-shrink: 0;
-/* snappen als er gescrolled wordt - andere helft bij ul */
-scroll-snap-align:center;
-}
-
-ul:nth-of-type(3) li > img {
-  display: block;
-  width: 100%;
-}
-
-main > section a:nth-of-type(6) 
- {
-  position: absolute;
-  width: 3em;
-	top: calc(50% - 1.5em);
-  outline: none;
-	box-shadow: inset 0 0 0 1px currentColor;
-	
-  display:grid;
-  place-items:center;
+  /* om te voorkomen dat bij het einde van de ul de body gaat scrollen */
+  /* daarmee zou de 'back' of 'forward' functie geactiveerd worden */
+  /* en nu dus niet */
+  /* https://developer.mozilla.org/en-US/docs/Web/CSS/overscroll-behavior */
+  overscroll-behavior: contain auto;
   
-  transition: 0.5s;
+  /* voor de zwarte piste */
+  /* zelf googlen */
+  -webkit-overflow-scrolling: touch;
 }
+
+main section:nth-of-type(2) ul:nth-of-type(2) li {
+  /* jouw code hier */
+  flex-basis:40%;
+  flex-shrink:0;
+  align-items:center;
+  gap:.25em;
+  
+  /* een kind geeft aan waar 't snapt */
+  scroll-snap-align: center;
+  
+  
+  /* de elementen in de li flexen weer verticaal */
+  /* maar nu in omgekeerde volgorde */
+  display:flex;
+  flex-direction:column-reverse;
+}
+
 /* PREV EN NEXT LINKBUTTONS */
-/****************************/
+
+
+main section:nth-of-type(2) > a:nth-of-type(2) img {
+position:absolute;
+width: 2em;
+right: 0;
+}
+
+main section:nth-of-type(2) > a:nth-of-type(1) img {
+  position:absolute;
+  width: 2em;
+  left: 0;
+  }
 
 
 
