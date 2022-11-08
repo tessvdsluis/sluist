@@ -3,15 +3,16 @@
 /**************/
 *, *::after, *::before {
   box-sizing:border-box;
-     margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 button, summary {
-    cursor: pointer;
-    border:  none;
-    background-color: unset;
+  cursor: pointer;
+  border:  none;
+  background-color: unset;
 }
+
 img {
   width:100%;
 }
@@ -20,38 +21,32 @@ main {
   margin: 0em 1em;
 }
 
+
 /*********************/
 /* CUSTOM PROPERTIES */
 /*********************/
 :root {
-    /* startje */
-    --color-text:#EED6DC;
-    --color-background:#30302e;
-    --color-accent-background: #EED6DC;
+  --color-text:#EED6DC;
+  --color-background:#30302e;
+  --color-accent-background: #EED6DC;
 }
 
 
-/****************/
-/* JOUW STYLING */
-/****************/
-
-/* jouw code */
+/************/
+/* ALGEMEEN */
+/************/
 
 header {
+  height: 10em;
   background-image: url(../images/c-cinema-visual-1_3722046876.jpeg);
   background-size:cover;
   background-repeat:no-repeat;
-  /* padding-top: 4em; */
-  height: 10em;
 }
-
-
 
 body {
   color:var(--color-text);
   background-color:var(--color-background);
 }
-
 
 li {
   font-family:'Roboto', sans-serif;
@@ -71,10 +66,19 @@ a {
 /* ZAALVERHUUR */
 /****************/
 
-main section:nth-of-type(1) p {
-  margin: 1em 0em;
-  color:var(--color-text)
+main section:nth-of-type(2) ul li button {
+  font-size: 700;
+  font-weight:bold;
 }
+
+main section:nth-of-type(1) h2 {
+  font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
+  margin:1em 0em;
+  text-transform: uppercase;
+}
+
+
 
 main section:nth-of-type(2) ul li:nth-of-type(1) p.toonTekst1 {
   display: block;
@@ -100,18 +104,17 @@ main section:nth-of-type(2) ul li:nth-of-type(6) p.toonTekst6 {
   display: block;
 }
 
-main section:nth-of-type(2) ul li button:activex{
+main section:nth-of-type(1) p {
+  margin: 1em 0em;
+  color:var(--color-text)
+}
+
+main section:nth-of-type(2) ul li button:active{
   color:var(--color-accent-background);
   background-color:var(--color-background);
   border: solid var(--color-accent-background)
 }
 
-main section:nth-of-type(1) h2 {
-  font-weight: 4em;
-  font-family: 'Open Sans', sans-serif;
-  margin:1em 0em;
-  text-transform: uppercase;
-}
 
 
 /****************/
