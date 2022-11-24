@@ -60,3 +60,4 @@ function toggleOptie() {
 //   extraInfoTwee.classList.toggle("toonTekst2");
 
 
+
