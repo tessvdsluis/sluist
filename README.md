@@ -72,12 +72,12 @@ De site die ik heb uitgekozen is zeker geen slechte site. Toch zijn er hier en d
 
 
   #### Visueel (brillen, contrast, kleurenblind, dark/light).
-  Met de verschillende brillen op werkt de site nog prima. Het contrast van het roze en zwart werkt goed. Het is wel jammer dat de lettergrote niet makkelijk kan worden veranderd.Ook zijn er hier en daar zinnen over afbeeldingen geplaatst wat er ook wel voor kan zorgen dat het minder goed te lezen is.
+  Met de verschillende brillen op werkt de site nog prima. Het contrast van het roze en zwart werkt goed .Ook zijn er hier en daar zinnen over afbeeldingen geplaatst wat er ook wel voor kan zorgen dat het minder goed te lezen is.
 
   Om de site te verbeteren:
   Een hover state toepassen
-  een functie dat de letters groter en kleiner worden
-  night modus toevoegen
+  Contrast over de header plaatsen zodat de navigatie niet wegvalt wanneer het plaatje veranderd.
+  responisiveness verbeteren.
 
 </details>
 
@@ -175,31 +175,22 @@ De site die ik heb uitgekozen is zeker geen slechte site. Toch zijn er hier en d
 <details>
   <summary>uitwerken na test in 8e werkgroep</summary>
 
-  ### Bevindingen
-  Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
-
   #### Screenreader
-  Hier korte omschrijving (met indien nodig afbeeldingen)
-
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  Screenreader werkte goed, moest hier en daar wel nog wat beschrijvingen toevoegen bij de afbeeldingen.
 
 
   #### Muis en Toetsenbord
-  Hier korte omschrijving (met indien nodig afbeeldingen)
-
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  de tab werkte goed over de linkjes.
 
 
   #### Motoriek (shocks, elastiekjes)
-  Hier korte omschrijving (met indien nodig afbeeldingen)
-
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  Zelfs met de schocks was de website te besturen
+  
 
 
   #### Visueel (brillen, contrast, kleurenblind, dark/light).
-  Hier korte omschrijving (met indien nodig afbeeldingen)
-
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+ contrast is verbeterd doormiddel van een gradient op de header foto te plaatsen
+ verder zijn de lettertypes groter en is er overal een hover state.
 
 </details>
 
@@ -226,6 +217,7 @@ De site die ik heb uitgekozen is zeker geen slechte site. Toch zijn er hier en d
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
   - Ik snap hoe ik met grid aan de slag moet!!
+  - Ik heb een goed voorbeeld gekregen voor een carousel (hoeft dus niet met javascript)
 
 </details>
 
@@ -239,19 +231,29 @@ De site die ik heb uitgekozen is zeker geen slechte site. Toch zijn er hier en d
   <summary>uitwerken voor eindgesprek</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/screencapture-studiok" width="375px" alt="uitkomst opdracht 1">
+    <img src="readme-images/screencapture-zaalverhuur" width="375px" alt="uitkomst opdracht 1">
 
 
   ### Dit ging goed/Heb ik geleerd:
   Korte omschrijving met plaatjes
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
+  
+  <img src="readme-images/hamurger_menu" width="375px" alt="top"> 
+  Het hamburger menu was 1 van de eerste onderwerpen die was gelukt, ditzorgde ervoor dat ik veel zelfvertrouwen kreeg voor de rest van mijn website
+
+  <img src="readme-images/grid" width="375px" alt="top"> 
+  Het geruiken van de grid had ws ik in eerste instantie uit de weg gegaan omdat ik dacht dat het te lastigg was, nu heb ik het toch op meerdere elemneten van mijn website gebruikt voor de responsiveness
+
 
 
   ### Dit was lastig/Is niet gelukt:
   Korte omschrijving met plaatjes
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
+  <img src="readme-images/carousel" width="375px" alt="bummer">
+  Wat mij niet meer goed is gelukt is het schalen van het zalen element. Ik heb dit element later nog toegevoegd zodat de website eter responsive was. Dit was niet een goede keuze aangezien het niet ggoed is uitgewerkt. 
+
+  Ook is het mij niet gelukt om in mijn javascript alle opties op de zaalverhuur website te kunnen laten openen. 
 </details>
 
 
@@ -265,8 +267,10 @@ De site die ik heb uitgekozen is zeker geen slechte site. Toch zijn er hier en d
 
   Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
-  1. bron 1
-  2. bron 2
-  3. ...
-
+  1. Sanne 't hooft
+  2. Jeffrey Ullers
+  3. https://www.w3schools.com/tags/tag_table.asp
+  4. https://convertermaniacs.com/pixel-to-em/convert-810-px-to-em.html
+  5. https://codepen.io/finnhvman/post/theming-with-css-variables-in-rgba
+  6. https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 </details>

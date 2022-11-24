@@ -34,6 +34,7 @@ main {
 /************/
 /* ALGEMEEN */
 /************/
+
 body {
   color:var(--color-text);
   background-color:var(--color-background);
@@ -64,6 +65,7 @@ h2 {
 /**********/
 
 header {
+  /* online bron */
   background-image: linear-gradient(to top, rgba(245, 246, 252, 0), rgba(35, 33, 34, 0.83)), url(../images/Girls-Favo.jpg);
   background-repeat:no-repeat;
   background-size:cover;
@@ -71,7 +73,6 @@ header {
   border-bottom: 0.4em solid var(--color-accent-background);
   background-position: center;
   z-index:-1;
-  
 }
 
 header a:nth-of-type(2 ) img {
@@ -83,8 +84,6 @@ header > div:nth-of-type(1) {
   display: none;
 }
 
-
-
 @media (min-width: 30em) {
   h2 {
   font-size: larger; 
@@ -95,13 +94,10 @@ header > div:nth-of-type(1) {
   header {
     height:12em;
   }
-  
 }
 
 
 @media (min-width: 55em) {
-
-
   header > div:nth-of-type(1) {
     display: grid;
     margin-top: 6em;
@@ -433,13 +429,20 @@ main section:nth-of-type(2) ul li:nth-of-type(5):hover a:first-of-type::after {
 
 
 @media (min-width: 30em) {
-  main section:nth-of-type(2) ul:first-of-type {
-    font-size: larger;
+  main section:nth-of-type(2) ul:first-of-type li button{
+    font-size: 1.2em;
   }
 
   main section:nth-of-type(2) ul li a img {
     height: 16em;
     width: 13em;
+  }
+}
+
+
+@media (min-width: 50em) {
+  main section:nth-of-type(2) ul:first-of-type li button{
+    font-size: 1.2em;
   }
 }
 
