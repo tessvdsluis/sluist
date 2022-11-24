@@ -22,8 +22,6 @@ function toggleMenu() {
 
 
 
-
-
 /******************************/
 /* opties openen & sluiten */
 /******************************/
@@ -48,80 +46,17 @@ function toggleOptie() {
 
 /*VERGADERING*/
 // menu button opgeslagen als variabelen deButton
-var deOptie2 = document.querySelector("main section:nth-of-type(2) ul li:nth-of-type(2) button ");
+// var deOptie2 = document.querySelector("main section:nth-of-type(2) ul li:nth-of-type(2) button");
 
-// menu-button luistert naar klik en voert dan een functie uit
-deOptie2.addEventListener("click", toggleOptieTwee);
+// // menu-button luistert naar klik en voert dan een functie uit
+// deOptie2.addEventListener("click", toggleOptieTwee);
+// extraInfoTwee.classList("open")
 
-// Nieuwe functie toggleMenu 
-function toggleOptieTwee() {  
-  // nav opgeslagen als variabelen
-  var extraInfoTwee = document.querySelector("main section:nth-of-type(2) ul li:nth-of-type(2) p");
-  // nav krijgt class toonMenu
-  extraInfoTwee.classList.toggle("toonTekst2");
-}
-
-
-/*FEEST/BORREL*/
-
-// menu button opgeslagen als variabelen deButton
-var deOptie3 = document.querySelector("main section:nth-of-type(2) ul li:nth-of-type(3) button ");
-
-// menu-button luistert naar klik en voert dan een functie uit
-deOptie3.addEventListener("click", toggleOptie3);
-
-// Nieuwe functie toggleMenu 
-function toggleOptie3() {  
-  // nav opgeslagen als variabelen
-  var extraInfo3 = document.querySelector("main section:nth-of-type(2) ul li:nth-of-type(3) p");
-  // nav krijgt class toonMenu
-  extraInfo3.classList.toggle("toonTekst3");
-}
+// // Nieuwe functie toggleMenu 
+// function toggleOptieTwee() {  
+//   // nav opgeslagen als variabelen
+//   var extraInfoTwee = document.querySelector("main section:nth-of-type(2) ul li:nth-of-type(2) p");
+//   // nav krijgt class toonMenu
+//   extraInfoTwee.classList.toggle("toonTekst2");
 
 
-/*KINDERFEESTJE*/
-// menu button opgeslagen als variabelen deButton
-var deOptie4 = document.querySelector("main section:nth-of-type(2) ul li:nth-of-type(4) button ");
-
-// menu-button luistert naar klik en voert dan een functie uit
-deOptie4.addEventListener("click", toggleOptie4);
-
-// Nieuwe functie toggleMenu 
-function toggleOptie4() {  
-  // nav opgeslagen als variabelen
-  var extraInfo4 = document.querySelector("main section:nth-of-type(2) ul li:nth-of-type(4) p");
-  // nav krijgt class toonMenu
-  extraInfo4.classList.toggle("toonTekst4");
-}
-
-
-/*FILMVIEWING*/
-// menu button opgeslagen als variabelen deButton
-var deOptie5 = document.querySelector("main section:nth-of-type(2) ul li:nth-of-type(5) button ");
-
-// menu-button luistert naar klik en voert dan een functie uit
-deOptie5.addEventListener("click", toggleOptie5);
-
-// Nieuwe functie toggleMenu 
-function toggleOptie5() {  
-  // nav opgeslagen als variabelen
-  var extraInfo5 = document.querySelector("main section:nth-of-type(2) ul li:nth-of-type(5) p");
-  // nav krijgt class toonMenu
-  extraInfo5.classList.toggle("toonTekst5");
-}
-
-
-/*DCP-CHECK*/
-// menu button opgeslagen als variabelen deButton
-var deOptie6 = document.querySelector("main section:nth-of-type(2) ul li:nth-of-type(6) button ");
-
-// menu-button luistert naar klik en voert dan een functie uit
-deOptie6.addEventListener("click", toggleOptie6);
-
-// Nieuwe functie toggleMenu 
-function toggleOptie6() {  
-  // nav opgeslagen als variabelen
-  var extraInfo6 = document.querySelector("main section:nth-of-type(2) ul li:nth-of-type(6) p");
-  // nav krijgt class toonMenu
-  extraInfo6.classList.toggle("toonTekst6");
-}

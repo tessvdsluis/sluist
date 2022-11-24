@@ -22,7 +22,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   blauw
 
   #### Je focus:
-  Responsive
+  hier je focus (kies uit responsive óf surface plane)
 
 </details>
 
@@ -40,11 +40,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   #### Screenshot(s) van de eerste pagina (small screen):
   hier de naam van de pagina
-  <img src="readme-images/studio-k.png" width="275px" alt="omschrijving van de pagina">
+  <img src="readme-images/studio-k.png" width="375px" alt="omschrijving van de pagina">
 
   #### Screenshot(s) van de tweede pagina (small screen):
   hier de naam van de pagina
-  <img src="readme-images/zaalverhuur.png" width="275px" alt="omschrijving van de pagina">
+  <img src="readme-images/zaalverhuur.png" width="375px" alt="omschrijving van de pagina">
 
 </details>
 
@@ -64,7 +64,7 @@ De site die ik heb uitgekozen is zeker geen slechte site. Toch zijn er hier en d
 
 
   #### Muis en Toetsenbord
-  De website is goed te besturen, de contrasten van de site werken goed voor blindheid.
+  De website is ged te besturen, de contrasten van de site werken goed voor blindheid.
 
 
   #### Motoriek (shocks, elastiekjes)
@@ -89,7 +89,14 @@ De site die ik heb uitgekozen is zeker geen slechte site. Toch zijn er hier en d
   <summary>uitwerken na afloop 2e werkgroep</summary>
 
   ### de hele pagina:
-  <img src="readme-images/Breakdownschets.png" width="375px" alt="breakdown van de hele pagina">
+  <img src="readme-images/Breakdownschets" width="375px" alt="breakdown van de hele pagina">
+
+  ### dynamisch deel (bijv menu):
+  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
+
+  ### wellicht nog een dynamisch deel (bijv filter):
+  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
+
 </details>
 
 
@@ -102,26 +109,26 @@ De site die ik heb uitgekozen is zeker geen slechte site. Toch zijn er hier en d
   <summary>uitwerken voor 1e voortgang</summary>
 
   ### Stand van zaken
-  Is mijn website gevraieerd genoeg? En moet ik alles uitwerken zoals het op de site staat?
+  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
 
 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  - Maeve: wanneer weet je of iets een section is?
-  - Nienke: Is mijn html semantisch
-  
- 
+  | student 1      | student 2          | student 3    | student 4        |
+  | ---            | ---                | ---          | ---              |
+  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
+  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
+  | ...            | ...                | ...          | ...              |
+
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - Het formulier moet niet met <p>
-  - Nog niet genoeg html 
-  - Mijn read-me verder afmaken zoals breakdown schets 
-  - hoef niet alle elementen van de site uit te werken
-
- 
+  - punt 1
+  - punt 2
+  - nog een punt
+  - ...
 
 </details>
 
@@ -136,33 +143,25 @@ De site die ik heb uitgekozen is zeker geen slechte site. Toch zijn er hier en d
 
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-   
-  - Mijn code goed semantisch schrijven vindt ik nog lastig. 
-  Wanneer moeten er h1, h2 & h3?
-  Hoe selecteer je de tweede section vanuit je main en daar de ul van?
-  Hoe zorg je ervoor dat je header een backrgound image krijgt?
+
 
   ### Agenda voor meeting
   samen met je groepje opstellen
-  
-  - Maeve: Welke css selectors moet je gebruiken 
-           En hoe deel je logisch je stylesheet in
-           Mag je bij img id's gebruiken
-  
-  - Eliran: Moet je bij een page waar je de taal kan switchen een aparte 
-           (vertaalde) page maken of gebruik je javascript om de text te veranderen?
-  
-  - Nienke: Hoe kan je de header centreren?
-  
-  - Thijs: Indeling van HTML nog lastig
 
+  | student 1      | student 2          | student 3    | student 4        |
+  | ---            | ---                | ---          | ---              |
+  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
+  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
+  | ...            | ...                | ...          | ...              |
 
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - de css selectoren zijn een stuk duidelijker.
-  - flex wordt ook steeds een stukje makkelijker om te gebruiken.
+  - punt 1
+  - punt 2
+  - nog een punt
+- ...
 
 </details>
 
@@ -213,19 +212,26 @@ De site die ik heb uitgekozen is zeker geen slechte site. Toch zijn er hier en d
   <summary>uitwerken voor 3e voortgang</summary>
 
   ### Stand van zaken
-  Ik was helaas niet mobile first begonnen met het schrijven van mijn code, dit zorde ervoor dat ik eiegnlijk opnieuw kon beginnen. Wel merkte ik dat het een stuk logischer en makkelijker was om mobile first te beginnen. Het javascript gedeelte ging goed met het hamburger menu, maar de carousel is nog moeilijk, ook weet ik niet goed hoe ik het formulier moet aanpakken. 
+  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
 
 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  Tess: een section waarbij ik niet zo goed begrijp hoe ik verschillende elementen met een grid goed kan plaatsen. Ook moet ik een carousel maken met knoppen aan de zijkant alleen kan ik geen goed voorbeeld vinden van hoe dit moet, Sanne zijn voorbeelden in codepen openen niet bij mij.
-  eliran: waarom zorgt font-size voor tussenruimte bij img's
+  | student 1      | student 2          | student 3    | student 4        |
+  | ---            | ---                | ---          | ---              |
+  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
+  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
+  | ...            | ...                | ...          | ...              |
+
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - Ik snap hoe ik met grid aan de slag moet!!
+  - punt 1
+  - punt 2
+  - nog een punt
+  - ...
 
 </details>
 

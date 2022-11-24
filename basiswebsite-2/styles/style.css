@@ -1,0 +1,123 @@
+/**************/
+/* CSS REMEDY */
+/**************/
+*, *::after, *::before {
+  box-sizing:border-box;
+}
+
+button, summary {
+    cursor: pointer;
+}
+
+
+/*********************/
+/* CUSTOM PROPERTIES */
+/*********************/
+:root {
+
+    --color-text:#EED6DC;
+    --color-background:#30302e;
+    --color-accent-background: #EED6DC;
+}
+
+/****************/
+/* HEADER */
+/****************/
+
+header a img {
+  position: absolute;
+  width: 13em;
+  z-index:3;
+}
+
+header button {
+  background-color: var(--color-background);
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 3.2em;
+  padding: 0.8em;
+  z-index: 2;
+}
+
+nav ul li img {
+  width: 2em;
+}
+
+
+nav {
+  position: absolute;
+  background-color: var(--color-background);
+  padding: 2em 3em .7em 1em;
+  right: 0;
+  top: 0;
+  display:none;
+}
+
+nav ul li {
+  margin: .5em;
+}
+
+nav ul li:last-of-type {
+  margin-top: .3em;
+  display: flex;
+}
+
+button {
+  font-family:'Roboto', sans-serif;
+}
+  
+
+/**********************/
+/* HAMBURGER MENU */
+/*********************/
+
+/* wanneer er geklikt wordt: */
+nav.toonMenu {
+  display:unset; 
+}
+
+
+
+
+/**********/
+/* FOOTER */
+/**********/
+
+footer {
+  background-color:var(--color-accent-background);
+  color: var(--color-background);
+  font-family:'Roboto', sans-serif;
+  display:flex;
+  
+}
+
+footer img {
+  max-width: 9em;
+  min-width: 1em;;
+}
+
+footer h2 {
+  text-transform: uppercase;
+  font-weight: 200em;
+
+}
+
+footer > section:first-of-type {
+  margin: 1em 1em;
+  flex-direction: column;
+  width: 50%;;
+  align-items: flex-start;
+  padding: 1em 0em;;
+}
+
+footer > section:nth-of-type(2) {
+  margin: 1em 1em;
+  flex-direction: column;
+  width: 50%;;
+  align-items: flex-end;
+  padding: 1em 0em;
+} 
+
+
+
